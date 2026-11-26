@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/aobuya/hello-api-gitops.git
     targetRevision: main
-    path: apps/hello-api/overlays/dev
+    path: apps/hello-api/overlays/base
   destination:
     server: https://kubernetes.default.svc
     namespace: hello
